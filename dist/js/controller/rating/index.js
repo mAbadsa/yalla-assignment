@@ -1,0 +1,10 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getArticleRatings = exports.addRating = void 0;
+var addRating_1 = __importDefault(require("./addRating"));
+exports.addRating = addRating_1.default;
+var getArticleRatings_1 = __importDefault(require("./getArticleRatings"));
+exports.getArticleRatings = getArticleRatings_1.default;
